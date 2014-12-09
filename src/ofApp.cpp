@@ -100,6 +100,7 @@ void ofApp::keyPressed(int key){
             if(temp<50) temp+=5;
             break;
         case 32:  // space
+            
             if(full_on) full_on=false;
             else full_on=true;
             break;
